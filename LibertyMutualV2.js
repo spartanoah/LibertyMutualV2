@@ -72,9 +72,20 @@
 (function () {
     //Config: if you want to turn off esp, you can.
 
-    const enableESP=true; //turn to false for off
-    const enableTracers=false; //turn to false for off
+const enableESP = true; // turn to false for off
+let enableTracers = false; // turn to false for off
 
+document.addEventListener('keydown', function(event) {
+  if (event.key === 'b') {
+    enableTracers = !enableTracers; // Toggle the value
+    if (enableTracers) {
+      console.log('Tracers enabled.');
+    } else {
+      console.log('Tracers disabled.');
+    }
+  }
+});
+    
     //Credit for script injection code: AI. ChatGPT prompt: "tampermonkey script. how can i make it grab a javascript file as it's loaded. if it detects the javascript file, make it apply modifications to it via regex? using XMLHttpRequest"
     //Credit for idea to use XMLHttpRequest: A3+++
     const originalXHROpen = XMLHttpRequest.prototype.open;
