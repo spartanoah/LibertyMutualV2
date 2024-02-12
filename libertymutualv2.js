@@ -10,7 +10,7 @@
 // @run-at       document-start
 // @icon         https://github.com/onlypuppy7/LibertyMutualShellShockers/blob/main/scripticon.jpg?raw=true
 // @require      https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js
-// @downloadURL https://update.greasyfork.org/scripts/484168/LibertyMutualV1%20For%20Shell%20Shockers.user.js
+// @downloadURL https://raw.githubusercontent.com/spartanoah/LibertyMutualV2/main/libertymutualv2.js
 // @updateURL 
 // ==/UserScript==
 
