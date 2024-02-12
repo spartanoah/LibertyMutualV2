@@ -9,7 +9,7 @@
 // @grant        none
 // @run-at       document-start
 // @icon         https://github.com/spartanoah/LibertyMutualV2/blob/main/scripticon.jpg?raw=true
-// @require      https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js
+// @require      https://raw.githubusercontent.com/spartanoah/LibertyMutualV2/main/crypto-js.min.js
 // @downloadURL https://raw.githubusercontent.com/spartanoah/LibertyMutualV2/main/libertymutualv2.js
 // @updateURL 
 // ==/UserScript==
